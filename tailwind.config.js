@@ -19,7 +19,7 @@ module.exports = {
         qrContainerBlur: '#CFCFCF',
         qrContainer: '#D2D2D2',
         qrContainerBorder: '#D2D2D2',
-        inputBar: '#D9D9D9',
+        white2: '#D9D9D9',
         downloadButtonBorder: '#B8B4B4',
         notificationBorder: '#929292',
         notificationRectangle: '#CDCDCD',
