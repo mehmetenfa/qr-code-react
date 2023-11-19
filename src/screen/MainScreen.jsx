@@ -16,7 +16,7 @@ const MainScreen = () => {
 		  <nav className='h-[116px] w-full bg-lightBlue shadow-lg flex flex-row items-center justify-between'>
 			 <div className='flex gap-[33px] items-center h-full p-[140px]'>
 				<div className='w-[65px] h-[65px] bg-white2 flex items-center justify-center rounded-[10px] shadow-xl'>
-				   <img draggable={false} src={QRCode} width={50} height={50} />
+				   <img draggable={false} src={QRCode} width={50} height={50} alt='navbar qr img' />
 				</div>
 				<h1 className='text-xl font-bold'>URL to QR Code</h1>
 			 </div>
@@ -36,7 +36,7 @@ const MainScreen = () => {
 								  enabled ? 'translate-x-[58px]' : 'translate-x-1'
 							  } inline-block h-[30px] w-[30px] flex items-center justify-center transform rounded-full bg-black transition`}
 						  >
-							 <img src={ToggleIcon2} />
+							 <img src={ToggleIcon2} alt='toggle dark icon' />
 						  </div>
 					   :
 						  <div
@@ -44,7 +44,7 @@ const MainScreen = () => {
 								  enabled ? 'translate-x-[58px]' : 'translate-x-1'
 							  } inline-block h-[30px] w-[30px] flex items-center justify-center transform rounded-full bg-white transition`}
 						  >
-							 <img src={ToggleIcon1} />
+							 <img src={ToggleIcon1} alt='toggle light icon' />
 						  </div>
 					  }
 				   </Switch>

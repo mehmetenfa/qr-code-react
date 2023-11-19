@@ -14,6 +14,7 @@ module.exports = {
         white1: '#D9D9D9',
         bodyStroke: '#898787',
         black: '#000000',
+        loaderBlack: '#575757',
         inputBarBorder: '#BFBFBF',
         placeHolder: '#959393',
         qrContainerBlur: '#CFCFCF',
